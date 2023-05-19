@@ -46,6 +46,7 @@
   border: 2px solid black;
   background-image: linear-gradient(to left, #2F4F4F, #66CDAA, #4682B4, #87CEEB);
   font-family: 'Merriweather', serif;
+  height: 50vh;
 }
 
 .proposito{
@@ -55,25 +56,25 @@
  .eduardo, .otavio, .sofia, .gabriel, .jessica {
     display: inline-block;
     
-    width: 200px;
-    height: 500px;
+   
     background-color: #0dc7e7;
     border: 3px solid black;
-    margin: 40px;
     justify-content: center;
     align-items: center;
-    padding-left: 70px;
+    margin-left: 5vw;
+    width: 12vw;
+    height: 35vh;
   }
 
 
-
+  
 
 
 /* |-----------------------------------------------------------------------Proposito(incio)----------------------------------------------------------------------------| */
 #proposito{
   background-image: linear-gradient(to right, #4169E1, #4682B4, #66CDAA, #000080);
   width: 100%;
-  height: 450px;
+  height: 60vh;
   text-align: center;
   justify-content: center;
   font-weight: bold;
@@ -94,52 +95,47 @@
 /* |-----------------------------------------------------------------------MVV(incio)----------------------------------------------------------------------------| */
 
 
-  #MVV{
-    display: flex;
-    border: 2px solid black;
-    background-image: linear-gradient(to right,#4682B4, #66CDAA, #000080,#808080);
-    font-family: 'Merriweather', serif;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-  }
+#MVV {
+  display: flex;
+  border: 2px solid black;
+  background-image: linear-gradient(to right,#4682B4, #66CDAA, #000080,#808080);
+  font-family: 'Merriweather', serif;
+  align-items: center;
+  width: 100%;
+  height: 200vh;
+}
 
-  .missao, .visao, .valores {
-    display: inline-block;
-    vertical-align: top;
-    width: 450px;
-    height: 400px; 
-    border: 2px solid black;
-    margin-right: 20px;
-  }
+.missao, .visao, .valores {
+  flex-basis: 120vh;
+  height: 50vh;
+  border: 2px solid black;
+  margin-right: 20px;
+}
 
-  .missao {
-    background-image: linear-gradient(to left,#4682B4, #FFFFFF, #66CDAA);
-  }
+.missao {
+  background-image: linear-gradient(to left,#4682B4, #FFFFFF, #66CDAA);
+}
 
-  .visao {
-    background-image: linear-gradient(to left, #4169E1, #87CEEB,#2F4F4F,#F5F5F5 );
-  }
+.visao {
+  background-image: linear-gradient(to left, #4169E1, #87CEEB,#2F4F4F,#F5F5F5 );
+}
 
-  .valores {
-    background-image: linear-gradient(to right,#808080, #87CEEB, #4169E1,#F5F5F5 );
-  }
+.valores {
+  background-image: linear-gradient(to right,#808080, #87CEEB, #4169E1,#F5F5F5 );
+}
 
-  .textomissao, .textovisao, .textovalores {
-    padding-right: 20px;
-    font-size: 30px;
-  }
+.textomissao, .textovisao, .textovalores {
+  padding-right: 20px;
+  font-size: 30px;
+}
 
-  .containermvv{
-    margin-left:20px;
-  }
+.containermvv {
+  margin-left: 20px;
+}
 
-
-  .titulomvv{
+.titulomvv {
   text-align: center;
-  }
-
-
+}
 
 
 /* |-----------------------------------------------------------------------Primeiro Projeto(incio)----------------------------------------------------------------------------| */
@@ -147,7 +143,7 @@
   border: 2px solid black;
   background-image: linear-gradient(to left, #4169E1, #FFFFFF, #4682B4, #808080, #1974eb, #00e0fd);
   width: 100%;
-  height: 500px;
+  height: 120vh;
   
 }
 
